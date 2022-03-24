@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="nbody.cpp" />
+    <ClCompile Include="Renderer.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="VertexBuffer.cpp">
+      <Filter>Renderer\Buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleInit.cpp">
+      <Filter>Particle</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Renderer">
+      <UniqueIdentifier>{860d9761-669c-45c0-bafd-768057949ef3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renderer\Shader">
+      <UniqueIdentifier>{15766f42-0a1d-498b-bd07-df420123f728}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renderer\Buffer">
+      <UniqueIdentifier>{3b7a7d7f-a3e3-437c-9267-a967e2c2f8d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Particle">
+      <UniqueIdentifier>{6ecbac95-a6d9-4c1e-bbea-f1339bbccc74}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Renderer.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader_load.h">
+      <Filter>Renderer\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexBuffer.h">
+      <Filter>Renderer\Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="Particle.h">
+      <Filter>Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="nbody.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Shader\fragment.shader">
+      <Filter>Renderer\Shader</Filter>
+    </None>
+    <None Include="Shader\mesh.shader">
+      <Filter>Renderer\Shader</Filter>
+    </None>
+    <None Include="Shader\vertex.shader">
+      <Filter>Renderer\Shader</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <CudaCompile Include="ParticleUpdate.cu">
+      <Filter>Particle</Filter>
+    </CudaCompile>
+  </ItemGroup>
+</Project>
