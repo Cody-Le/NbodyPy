@@ -11,6 +11,7 @@
     <ClCompile Include="ParticleInit.cpp">
       <Filter>Particle</Filter>
     </ClCompile>
+    <ClCompile Include="Simulation.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Renderer">
@@ -39,7 +40,7 @@
     <ClInclude Include="Particle.h">
       <Filter>Particle</Filter>
     </ClInclude>
-    <ClInclude Include="nbody.h" />
+    <ClInclude Include="Simulation.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Shader\fragment.shader">
