@@ -1,8 +1,8 @@
 #pragma once
-
+#
 #include "Particle.h"
 #include "Renderer.h"
-#include "glm.hpp"
+
 
 
 
@@ -13,11 +13,14 @@ public:
 	unsigned int width;
 	unsigned int height;
 	float dt;
+	
+	particleSystem world;
+	renderer Engine;
+	
+	void runLoop(); //Function to run the main thing
 
-
-
-
-private:
 	simulation(unsigned int n, glm::vec2 iPosRange, glm::vec2 iVelRange, glm::vec2 mRange);
+private:
+	
 	
 };

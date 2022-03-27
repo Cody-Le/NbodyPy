@@ -161,19 +161,19 @@ __global__ void solve(glm::vec3* cPos, glm::vec3* pPos, glm::vec3* nPos, float* 
 
 
 
-void particleSystem::updateSystem(float dt) {
+cudaError_t particleSystem::updateSystem(float dt) {
     //Set up GPU
-    glm::vec3* gpuCPos;
-    glm::vec3* gpuPPos;
-    glm::vec3* gpuNPos;
+    float* gpuCPos;
+    float* gpuPPos;
+    float* gpuNPos;
     float* mass;
    
     cudaSetDevice(0);
 
     //Allocate memory
-    cudaMalloc((void**)gpuCPos, n * sizeof(glm::vec3));
-    cudaMalloc((void**)gpuPPos, n * sizeof(glm::vec3));
-    cudaMalloc((void**)gpuNPos, n * sizeof(glm::vec3));
+    cudaMalloc((void**)gpuCPos, n * 3 * sizeof(float));
+    cudaMalloc((void**)gpuPPos, n * 3 * sizeof(float));
+    cudaMalloc((void**)gpuNPos, n * 3 * sizeof(float));
 
     //Set Values
     cudaMemcpy(gpuCPos, &currentPosition[0].x, n * sizeof(glm::vec3), cudaMemcpyHostToDevice);

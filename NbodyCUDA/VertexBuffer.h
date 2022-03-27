@@ -1,6 +1,5 @@
 #pragma once
-#include <GLFW/glfw3.h>
-#include <assert.h>
+#include "Renderer.h"
 class vertexBuffer {
 public:
 	GLuint vbo;

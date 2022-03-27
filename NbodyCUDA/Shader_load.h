@@ -1,10 +1,6 @@
 #pragma once
-#include <string.h>
-#include <sstream>
-#include "GL/glew.h"
-#include "GLFW/glfw3.h"
-#include <iostream>
-#include <fstream>
+#include "Renderer.h"
+
 
 std::string readShader(const std::string& filePath) {
     std::ifstream adf(filePath);
