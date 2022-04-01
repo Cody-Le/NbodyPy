@@ -190,13 +190,9 @@ D:\Projects\NbodyCUDA\Dependencies\glm\vec4.hpp
 D:\Projects\NbodyCUDA\Dependencies\glm\vector_relational.hpp
 D:\Projects\NbodyCUDA\NbodyCUDA\Libraries.h
 D:\Projects\NbodyCUDA\NbodyCUDA\Particle.h
-D:\VS\VSapp\VC\Tools\MSVC\14.31.31103\include\atomic
 D:\VS\VSapp\VC\Tools\MSVC\14.31.31103\include\cassert
-D:\VS\VSapp\VC\Tools\MSVC\14.31.31103\include\cctype
-D:\VS\VSapp\VC\Tools\MSVC\14.31.31103\include\cerrno
 D:\VS\VSapp\VC\Tools\MSVC\14.31.31103\include\cfloat
 D:\VS\VSapp\VC\Tools\MSVC\14.31.31103\include\climits
-D:\VS\VSapp\VC\Tools\MSVC\14.31.31103\include\clocale
 D:\VS\VSapp\VC\Tools\MSVC\14.31.31103\include\cmath
 D:\VS\VSapp\VC\Tools\MSVC\14.31.31103\include\concurrencysal.h
 D:\VS\VSapp\VC\Tools\MSVC\14.31.31103\include\crtdefs.h
@@ -205,33 +201,18 @@ D:\VS\VSapp\VC\Tools\MSVC\14.31.31103\include\cstdint
 D:\VS\VSapp\VC\Tools\MSVC\14.31.31103\include\cstdio
 D:\VS\VSapp\VC\Tools\MSVC\14.31.31103\include\cstdlib
 D:\VS\VSapp\VC\Tools\MSVC\14.31.31103\include\cstring
-D:\VS\VSapp\VC\Tools\MSVC\14.31.31103\include\ctime
 D:\VS\VSapp\VC\Tools\MSVC\14.31.31103\include\cwchar
 D:\VS\VSapp\VC\Tools\MSVC\14.31.31103\include\eh.h
 D:\VS\VSapp\VC\Tools\MSVC\14.31.31103\include\exception
-D:\VS\VSapp\VC\Tools\MSVC\14.31.31103\include\fstream
 D:\VS\VSapp\VC\Tools\MSVC\14.31.31103\include\initializer_list
 D:\VS\VSapp\VC\Tools\MSVC\14.31.31103\include\intrin0.h
 D:\VS\VSapp\VC\Tools\MSVC\14.31.31103\include\intrin0.inl.h
-D:\VS\VSapp\VC\Tools\MSVC\14.31.31103\include\ios
-D:\VS\VSapp\VC\Tools\MSVC\14.31.31103\include\iosfwd
-D:\VS\VSapp\VC\Tools\MSVC\14.31.31103\include\iostream
 D:\VS\VSapp\VC\Tools\MSVC\14.31.31103\include\isa_availability.h
-D:\VS\VSapp\VC\Tools\MSVC\14.31.31103\include\istream
-D:\VS\VSapp\VC\Tools\MSVC\14.31.31103\include\iterator
 D:\VS\VSapp\VC\Tools\MSVC\14.31.31103\include\limits
 D:\VS\VSapp\VC\Tools\MSVC\14.31.31103\include\limits.h
-D:\VS\VSapp\VC\Tools\MSVC\14.31.31103\include\memory
 D:\VS\VSapp\VC\Tools\MSVC\14.31.31103\include\new
-D:\VS\VSapp\VC\Tools\MSVC\14.31.31103\include\ostream
 D:\VS\VSapp\VC\Tools\MSVC\14.31.31103\include\sal.h
-D:\VS\VSapp\VC\Tools\MSVC\14.31.31103\include\sstream
-D:\VS\VSapp\VC\Tools\MSVC\14.31.31103\include\stdexcept
 D:\VS\VSapp\VC\Tools\MSVC\14.31.31103\include\stdint.h
-D:\VS\VSapp\VC\Tools\MSVC\14.31.31103\include\streambuf
-D:\VS\VSapp\VC\Tools\MSVC\14.31.31103\include\string
-D:\VS\VSapp\VC\Tools\MSVC\14.31.31103\include\system_error
-D:\VS\VSapp\VC\Tools\MSVC\14.31.31103\include\typeinfo
 D:\VS\VSapp\VC\Tools\MSVC\14.31.31103\include\type_traits
 D:\VS\VSapp\VC\Tools\MSVC\14.31.31103\include\use_ansi.h
 D:\VS\VSapp\VC\Tools\MSVC\14.31.31103\include\utility
@@ -241,28 +222,15 @@ D:\VS\VSapp\VC\Tools\MSVC\14.31.31103\include\vcruntime_exception.h
 D:\VS\VSapp\VC\Tools\MSVC\14.31.31103\include\vcruntime_new.h
 D:\VS\VSapp\VC\Tools\MSVC\14.31.31103\include\vcruntime_new_debug.h
 D:\VS\VSapp\VC\Tools\MSVC\14.31.31103\include\vcruntime_string.h
-D:\VS\VSapp\VC\Tools\MSVC\14.31.31103\include\vcruntime_typeinfo.h
 D:\VS\VSapp\VC\Tools\MSVC\14.31.31103\include\vector
 D:\VS\VSapp\VC\Tools\MSVC\14.31.31103\include\xatomic.h
-D:\VS\VSapp\VC\Tools\MSVC\14.31.31103\include\xcall_once.h
-D:\VS\VSapp\VC\Tools\MSVC\14.31.31103\include\xerrc.h
-D:\VS\VSapp\VC\Tools\MSVC\14.31.31103\include\xfacet
-D:\VS\VSapp\VC\Tools\MSVC\14.31.31103\include\xiosbase
 D:\VS\VSapp\VC\Tools\MSVC\14.31.31103\include\xkeycheck.h
-D:\VS\VSapp\VC\Tools\MSVC\14.31.31103\include\xlocale
-D:\VS\VSapp\VC\Tools\MSVC\14.31.31103\include\xlocinfo
-D:\VS\VSapp\VC\Tools\MSVC\14.31.31103\include\xlocnum
 D:\VS\VSapp\VC\Tools\MSVC\14.31.31103\include\xmemory
 D:\VS\VSapp\VC\Tools\MSVC\14.31.31103\include\xstddef
-D:\VS\VSapp\VC\Tools\MSVC\14.31.31103\include\xstring
-D:\VS\VSapp\VC\Tools\MSVC\14.31.31103\include\xthreads.h
-D:\VS\VSapp\VC\Tools\MSVC\14.31.31103\include\xtimec.h
 D:\VS\VSapp\VC\Tools\MSVC\14.31.31103\include\xtr1common
 D:\VS\VSapp\VC\Tools\MSVC\14.31.31103\include\xutility
 D:\VS\VSapp\VC\Tools\MSVC\14.31.31103\include\yvals.h
 D:\VS\VSapp\VC\Tools\MSVC\14.31.31103\include\yvals_core.h
-D:\VS\VSapp\VC\Tools\MSVC\14.31.31103\include\__msvc_system_error_abi.hpp
-D:\VS\VSapp\VC\Tools\MSVC\14.31.31103\include\__msvc_xlocinfo_types.hpp
 D:\Windows Kits\10\Include\10.0.22000.0\shared\winapifamily.h
 D:\Windows Kits\10\Include\10.0.22000.0\shared\winpackagefamily.h
 D:\Windows Kits\10\Include\10.0.22000.0\ucrt\assert.h
@@ -285,13 +253,10 @@ D:\Windows Kits\10\Include\10.0.22000.0\ucrt\corecrt_wstdlib.h
 D:\Windows Kits\10\Include\10.0.22000.0\ucrt\corecrt_wstring.h
 D:\Windows Kits\10\Include\10.0.22000.0\ucrt\corecrt_wtime.h
 D:\Windows Kits\10\Include\10.0.22000.0\ucrt\crtdbg.h
-D:\Windows Kits\10\Include\10.0.22000.0\ucrt\ctype.h
 D:\Windows Kits\10\Include\10.0.22000.0\ucrt\errno.h
 D:\Windows Kits\10\Include\10.0.22000.0\ucrt\float.h
-D:\Windows Kits\10\Include\10.0.22000.0\ucrt\locale.h
 D:\Windows Kits\10\Include\10.0.22000.0\ucrt\malloc.h
 D:\Windows Kits\10\Include\10.0.22000.0\ucrt\math.h
-D:\Windows Kits\10\Include\10.0.22000.0\ucrt\share.h
 D:\Windows Kits\10\Include\10.0.22000.0\ucrt\stddef.h
 D:\Windows Kits\10\Include\10.0.22000.0\ucrt\stdio.h
 D:\Windows Kits\10\Include\10.0.22000.0\ucrt\stdlib.h

@@ -10,13 +10,13 @@ public:
 	void initData(float* data, int sizeBytes);
 	void displayFrame(float* data);
 	void setCamera(glm::vec3 position, glm::vec3 target);
-	renderer(int _width,
-		int _height);
+	renderer(int _width, int _height);
+	renderer();
 	~renderer();
 private:
 	GLFWwindow* window;
 	std::string windowTitle = "Simulation";
-	vertexBuffer VBO;
+	vertexBuffer VBO();
 	GLuint shader; //variable to shader
 	bool initDataYet = false; //Check if the data is pushed to the vertex buffer before rendering
 

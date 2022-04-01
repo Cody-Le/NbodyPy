@@ -9,7 +9,7 @@ simulation::simulation(unsigned int n, glm::vec2 iPosRange, glm::vec2 iVelRange,
 	height = 800;
 	n = n;
 
-	world = particleSystem(n, iPosRange, iVelRange, mRange, 0.01);
+	particleSystem world = particleSystem(n, iPosRange, iVelRange, mRange, float(0.01));
 	Engine = renderer(800, 800);
 	Engine.initData(&world.currentPosition[0].x, int(n * sizeof(glm::vec3)));
 	

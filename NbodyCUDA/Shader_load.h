@@ -1,5 +1,12 @@
 #pragma once
-#include "Renderer.h"
+#include "GL/glew.h"
+#include "GLFW/glfw3.h"
+#include <iostream>
+#include <fstream>
+#include <string.h>
+
+
+#include <sstream>
 
 
 std::string readShader(const std::string& filePath) {

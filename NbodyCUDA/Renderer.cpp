@@ -2,7 +2,8 @@
 
 
 
-renderer::renderer(int width, int height) {
+renderer::renderer(int _width, int _height):width(_width), height(_height) {
+    
     /* Initialize the library */
     if (!glfwInit())
         glfwTerminate();
@@ -12,6 +13,7 @@ renderer::renderer(int width, int height) {
     {
         glfwTerminate();
     }
+    glewInit();
     initShader(); //Initalize and load the shaders
     perspectiveMatrix = glm::perspective(float(45), float((width/height)), float(1), float(150));
     viewMatrix = glm::lookAt(glm::vec3(0, 0, 10), glm::vec3(0, 0, 0), glm::vec3(0, 1, 0));

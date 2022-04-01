@@ -3,8 +3,9 @@
 
 // Function to initialize the particle system
 
-particleSystem::particleSystem(unsigned int _n,  glm::vec2 iPosRange, glm::vec2 iVelRange, glm::vec2 iMassRange, float dt) {
-	n = _n;
+particleSystem::particleSystem(unsigned int _n, glm::vec2 _iPosRange, glm::vec2 _iVelRange, glm::vec2 _iMassRange, float _dt) :
+	n(_n), iPosRange(_iPosRange),iVelRange(_iVelRange), iMassRange(_iMassRange),  dt(_dt)
+{
 	std::random_device rd;
 	
 	//Create "machine" that could generate random number within certain range
@@ -21,10 +22,10 @@ particleSystem::particleSystem(unsigned int _n,  glm::vec2 iPosRange, glm::vec2 
 		position.x = pos;
 		prev_position.x = pos - randomVel(generator) * dt;//Using previous position instead of velocity to reduce error via the verlet algorithm
 
-		float pos = randomPos(generator);
+		 pos = randomPos(generator);
 		position.y = pos;
 		prev_position.y = pos - randomVel(generator) * dt;//Using previous position instead of velocity to reduce error via the verlet algorithm
-		float pos = randomPos(generator);
+		 pos = randomPos(generator);
 		position.z = pos;
 		prev_position.z = pos - randomVel(generator) * dt;//Using previous position instead of velocity to reduce error via the verlet algorithm
 

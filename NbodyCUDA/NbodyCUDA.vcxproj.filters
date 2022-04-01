@@ -41,6 +41,7 @@
       <Filter>Particle</Filter>
     </ClInclude>
     <ClInclude Include="Simulation.h" />
+    <ClInclude Include="Libraries.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Shader\fragment.shader">
