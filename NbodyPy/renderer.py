@@ -1,11 +1,10 @@
 #File for rendering point with Pygame
 import pygame
-import matplotlib.pyplot as plt
-from matplotlib.animation import FuncAnimation
-import pyglet
+
+#from matplotlib.animation import FuncAnimation
 import numpy as np
 
-import astropy.units
+
 
 
 class PyGame_Renderer():
@@ -30,8 +29,9 @@ class PyGlet_Renderer():
 
 
 
+"""
 
-class MatplotLib_Renderer():
+class MPL_Renderer():
     def __init__(self, width, height, scale):
         self.fig, self.ax = plt.subplots()
         self.particles = np.array([[]]);
@@ -53,6 +53,10 @@ class MatplotLib_Renderer():
 
         return self.ln,
     def run(self):
-        ani = FuncAnimation(self.fig, self.updateFrame, blit=True);
+        #ani = FuncAnimation(self.fig, self.updateFrame, blit=True);
         plt.show();
 
+
+
+
+"""
