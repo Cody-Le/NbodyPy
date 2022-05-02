@@ -18,7 +18,7 @@ def S_classPython(particleSystem):
                 r[0] = particleSystem.currPosition[o][0] - particleSystem.currPosition[i][0] #Calculate distance on x axis
                 r[1] = particleSystem.currPosition[o][1] - particleSystem.currPosition[i][1] #Calculate distance on y axis
                 magnitude = math.sqrt(r[0] * r[0] + r[1] * r[1])
-                print(r)
+
 
                 a[0] += particleSystem.mass[o] * G * r[0]/(magnitude * magnitude * magnitude)
                 a[1] += particleSystem.mass[o] * G * r[1] / (magnitude * magnitude * magnitude)

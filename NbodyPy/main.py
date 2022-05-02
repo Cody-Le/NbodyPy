@@ -21,14 +21,14 @@ def update(self):
 if __name__ == "__main__":
     world = particleSystemCP(1000, 1)
     world.simpleRandom_Init([-10,10],[-0,0], [100,100])
-    world2 = deepcopy(world)
-    timeLim = 10
+    timeLim = 2000
     data = np.zeros((timeLim, 2))
 
 
     for f in range(0, timeLim):
+        print(f)
         start = datetime.datetime.now()
-        S_cupyTotal(world)
+        S_cupyPartial(world)
 
 
         end = datetime.datetime.now()
@@ -38,7 +38,7 @@ if __name__ == "__main__":
         data[f, 1] = msTime
 
     table = pd.DataFrame(data)
-    #table.to_csv("./S_CupyPartial1.csv")
+    table.to_csv("./CupyPartial1.csv")
     print(table)
 
 
