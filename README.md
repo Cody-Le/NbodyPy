@@ -1,34 +1,48 @@
-# N-body
+<h1 align="center">N-body</h1>
 
-Gravitational simulationn optimized to run in Python
+<p align="center"><img src="demo1.gif" alt="demo #1" width="500"/></p>
+<h4 align="center">Gravitational simulation optimized for Python</h4>
+
+
+
+## N-body experiment introduction
+N-body simulation is a simulation solving for particle positition through dt time step with a relative force field. Different python solver is tested against each other. To read more refer to:
+
+
+
+## Features
+* Different solver
+* A basic visualisation with Matplotlib
+* A recording algorithm
+
+
+
+
 
 ## Installation
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+1. Clone the repo
+   ```sh
+   git clone https://github.com/Cody-Le/NbodyPy.git
+   ```
+2. Edit any Variable to your liking
+   ```sh
+   height, width = [30,30]
+   underPopRate = 2
+   highPopRate = 3
+   minimumSpawnRate = 3
+   ```
 
-```bash
-pip install foobar
-```
 
-## Usage
+2. Run main.py
+   ```sh
+   py main.py
 
-```python
-import foobar
 
-# returns 'words'
-foobar.pluralize('word')
-
-# returns 'geese'
-foobar.pluralize('goose')
-
-# returns 'phenomenon'
-foobar.singularize('phenomena')
-```
-
-## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
-Please make sure to update tests as appropriate.
-
-## License
-[MIT](https://choosealicense.com/licenses/mit/)
+## Demo
+<p align"center">
+<img src="demo1.gif" alt="demo #1" width="300"/>
+<img src="demo2.gif" alt="demo #2" width="300"/>
+<img src="demo3.gif" alt="demo #23" width="300"/>
+</p>
+<h3 align="center">The glider, beacon and a chaotic system within the simulation</h3>
