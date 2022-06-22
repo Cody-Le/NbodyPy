@@ -1,5 +1,0 @@
-D:/Projects/Simulation/nbody3/nbody3/Dependencies/glm/out/build/x64-Debug/CMakeFiles/install/local.dir
-D:/Projects/Simulation/nbody3/nbody3/Dependencies/glm/out/build/x64-Debug/CMakeFiles/install.dir
-D:/Projects/Simulation/nbody3/nbody3/Dependencies/glm/out/build/x64-Debug/CMakeFiles/edit_cache.dir
-D:/Projects/Simulation/nbody3/nbody3/Dependencies/glm/out/build/x64-Debug/CMakeFiles/rebuild_cache.dir
-D:/Projects/Simulation/nbody3/nbody3/Dependencies/glm/out/build/x64-Debug/CMakeFiles/list_install_components.dir
