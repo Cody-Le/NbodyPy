@@ -51,4 +51,4 @@ N-body simulation is a simulation solving for particle positition through dt tim
 <img src="demo2.gif" alt="demo #2" width="300"/>
 <img src="demo3.gif" alt="demo #23" width="300"/>
 </p>
-<h3 align="center">The glider, beacon and a chaotic system within the simulation</h3>
+<h3 align="center">Simulations</h3>
