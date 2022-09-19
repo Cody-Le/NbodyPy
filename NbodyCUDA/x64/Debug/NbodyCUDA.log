@@ -1,0 +1,5 @@
+﻿  Compiling CUDA source file kernel.cu...
+  
+  C:\Users\DELL\source\repos\NbodyCUDA\NbodyCUDA>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.7\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\bin\HostX64\x64" -x cu   -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.7\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.7\include"  -G   --keep-dir x64\Debug  -maxrregcount=0  --machine 64 --compile -cudart static  -g  -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Fdx64\Debug\vc143.pdb /FS /Zi /RTC1 /MDd " -o C:\Users\DELL\source\repos\NbodyCUDA\NbodyCUDA\x64\Debug\kernel.cu.obj "C:\Users\DELL\source\repos\NbodyCUDA\NbodyCUDA\kernel.cu" 
+  kernel.cu
+  NbodyCUDA.vcxproj -> C:\Users\DELL\source\repos\NbodyCUDA\x64\Debug\NbodyCUDA.exe
