@@ -9,11 +9,7 @@
 N-body simulation is a simulation solving for particle positition through dt time step with a relative force field. Different python solver is tested against each other. To read more refer to:
 
 ## Algorithms used
-### Basic python loops
-
-### Partial vectorization
-
-### Full vectorization
+<a href="./Research Paper.pdf" class="image fit">Written Paper (IB Extend Essay)</a>
 
 
 ## Features
