@@ -10,6 +10,8 @@ N-body simulation is a simulation solving for particle positition through dt tim
 
 ## Algorithms used
 <a href="./Research Paper.pdf" class="image fit">Written Paper (IB Extend Essay)</a>
+
+
 The algorithm used in the projects are:
 * Classic/Standard Python Implementation of N-Body Simulation
 * Partial Vectorization to vectorize the distance finding loop (CuPY, NumPY)
